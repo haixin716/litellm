@@ -9882,6 +9882,10 @@
         "supports_reasoning": true,
         "supports_tool_choice": true,
         "supports_vision": true,
+        "input_cost_per_token": 4e-07,
+        "input_cost_per_token_above_256k_tokens": 5e-07,
+        "output_cost_per_token": 2.4e-06,
+        "output_cost_per_token_above_256k_tokens": 3e-06,
         "tiered_pricing": [
             {
                 "input_cost_per_token": 4e-07,
@@ -31147,7 +31151,9 @@
         "mode": "chat",
         "output_cost_per_token": 3.2e-06,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#glm-models",
-        "supported_regions": ["global"],
+        "supported_regions": [
+            "global"
+        ],
         "supports_function_calling": true,
         "supports_prompt_caching": true,
         "supports_reasoning": true,
