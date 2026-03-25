@@ -95,7 +95,7 @@
         "supports_video_input": true,
         "supports_vision": true
     },
-    "MiniMax-M2.5": {
+    "minimax-m2.5": {
         "input_cost_per_token": 3e-07,
         "output_cost_per_token": 1.2e-06,
         "cache_read_input_token_cost": 3e-08,
@@ -110,7 +110,7 @@
         "max_input_tokens": 1000000,
         "max_output_tokens": 8192
     },
-    "MiniMax-M2.7": {
+    "minimax-m2.7": {
         "input_cost_per_token": 3e-07,
         "output_cost_per_token": 1.2e-06,
         "cache_read_input_token_cost": 3e-08,
